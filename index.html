@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Crud App</title>
+</head>
+
+<body>
+    <section id="modal" class="flex-col w-full h-screen bg-blue-400 flex justify-start items-center pt-[100px]">
+        <form id="form" class="flex flex-col items-start justify-center  gap-4   p-4 bg-gray-500">
+            <input class="inputs py-1 px-4 bg-slate-300" name="first_name" placeholder="Firs Name" type="text">
+            <input class="inputs py-1 px-4 bg-slate-300" name="address" placeholder="Address" type="text">
+            <button class="oy-1 text-white font-bold px-3 bg-blue-500">
+                Add Users
+            </button>
+        </form>
+        <div class="cards  flex justify-center flex-col items-center ">
+        </div>
+    </section>
+    <script src="./app.js"></script>
+</body>
+
+</html>
